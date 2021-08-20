@@ -1,0 +1,31 @@
+body {
+    background-color:lightgrey;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.listaGifs-card {
+    align-content: center;
+    border: 5px solid gray;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.listaGifs-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    max-inline-size: fit-content;
+}
+
+.listaGifs-card img {
+max-height: 170px;
+align-content: center;
+}
