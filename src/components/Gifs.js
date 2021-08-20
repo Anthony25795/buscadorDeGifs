@@ -8,7 +8,7 @@ const Gifs = ({item}) => {
 
     useEffect ( () => {
         obtenerGifs()
-    },[item])
+    })
     
     const obtenerGifs = async () => {
 

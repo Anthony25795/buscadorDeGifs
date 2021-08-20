@@ -1,4 +1,3 @@
-import Gifs from "./Gifs";
  const ListaGifs = ({gif}) => {
 
     return(
